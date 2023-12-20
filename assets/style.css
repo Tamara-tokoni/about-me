@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    background-color: #f0f0f0;
+    text-align: justify;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    color: #fcfcfc;  
+}
+
+nav a:hover,
+nav a:focus {
+    color: dodgerblue;
+    cursor:pointer;
+}
+
+nav a,
+nav a:active {
+    color: red;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.paragraph {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure {
+    text-align: center; /* Center the image horizontally */
+    margin: 24px 0;
+}
+  
+figure img {
+    display: block; /* Remove any extra space around the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+  
+
+article ol {
+    list-style: decimal inside;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 10px;
+}
+
+article li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
